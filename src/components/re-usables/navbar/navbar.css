@@ -1,0 +1,36 @@
+.nav-main{
+    @apply z-50 flex justify-center items-center  bg-[rgb(0,0,0,0.5)] fixed top-0 w-screen min-h-[60px]
+}
+.nav-main2{
+    @apply z-50 flex justify-center items-center  bg-[rgb(0,0,0,1)] fixed top-0 w-screen min-h-[60px]
+}
+.nav-sub-cont{
+    @apply flex justify-between w-[70%] text-white max-h-full items-center my-4
+}
+.nav-title-cont{
+    @apply flex justify-center items-center cursor-pointer
+}
+.nav-title-img{
+    @apply h-[40px] rounded-full mr-[8px]
+}
+.nav-title-text{
+    @apply text-xl font-medium 
+}
+.nav-link-cont{
+    @apply flex w-[27%] justify-between items-center 
+}
+.nav-link{
+    @apply font-medium cursor-pointer
+}
+.nav-btn{
+    @apply font-bold border-white rounded-3xl border-2 py-2 px-6
+}
+
+/* hover */
+.nav-link:hover{
+    @apply text-blue-600
+}
+
+.nav-btn:hover{
+    @apply border-black bg-black
+}

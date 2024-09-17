@@ -1,0 +1,27 @@
+.footer-main{
+    @apply flex flex-col items-center bg-black pt-12 pb-3 text-white
+}
+.footer-sub-cont{
+    @apply flex flex-col items-start w-[65%]
+}
+.ft-title-cont{
+    @apply flex justify-center items-center cursor-pointer mb-8
+}
+.ft-title-img{
+    @apply h-[40px] rounded-full mr-[8px]
+}
+.ft-title-text{
+    @apply text-xl font-medium 
+}
+.ft-text{
+    @apply mb-12 w-[60%] text-sm
+}
+.ft-social-cont{
+    @apply flex justify-between items-center w-[100px] my-6
+}
+.ft-social-icon{
+    @apply text-2xl cursor-pointer
+}
+.ft-copyright{
+    @apply text-sm opacity-60
+}

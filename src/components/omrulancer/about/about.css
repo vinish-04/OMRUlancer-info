@@ -1,0 +1,18 @@
+.omr-about-main{
+    @apply flex flex-col text-white items-center justify-center py-14;
+}
+.omra-title{
+    @apply w-[80%] text-left text-5xl font-semibold mb-10
+}
+.omra-point-cont{
+    @apply w-[80%] flex flex-col items-start
+}
+.omra-point-item{
+    @apply flex justify-start items-start mb-5
+}
+.omra-point-icon{
+    @apply text-[48px] text-yellow-400 mr-6
+}
+.omra-point-text{
+    @apply text-xl pt-4 font-light 
+}

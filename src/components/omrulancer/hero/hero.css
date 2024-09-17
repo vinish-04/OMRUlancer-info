@@ -1,0 +1,32 @@
+.omr-hero-main{
+    @apply min-h-[100vh] flex flex-col text-white items-center justify-center;
+    background: url("bg.jpg");
+    background-size: cover;
+}
+.omr-hero-title-cont{
+    @apply flex flex-col items-center bg-[rgb(255,255,255,0.2)] py-8 px-14 rounded-3xl mb-12
+}
+.omr-hero-title{
+    @apply flex justify-center items-center cursor-pointer  mb-10
+}
+.omr-hero-title-img{
+    @apply h-[130px] rounded-full mr-[24px]
+}
+.omr-hero-title-text{
+    @apply text-8xl font-medium 
+}
+.omr-hero-title-qoute{
+    @apply w-[30vw] text-center italic text-lg
+}
+.omr-hero-social-cont{
+    @apply flex flex-col items-center bg-[rgb(255,255,255,0.2)] py-4 px-6 rounded-2xl
+}
+.omr-hero-social-heading{
+    @apply mb-4  text-xl text-white
+}
+.omr-hero-social-links{
+    @apply flex justify-between items-center  mb-3 w-[100px]
+}
+.omr-hero-social-link{
+    @apply text-2xl cursor-pointer
+}

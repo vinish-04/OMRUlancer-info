@@ -1,0 +1,23 @@
+.vin-hero-main{
+    @apply min-h-[100vh] flex flex-col text-white items-center justify-center;
+    background: url("vine-bg.jpg");
+    background-size: cover;
+}
+.vin-hero-text-cont{
+    @apply flex flex-col w-[70vw] items-center shadow-lg bg-gradient-to-br from-[rgba(75,117,89,0.7)] to-[rgba(49,99,66,0.7)] py-8 px-14 mt-20 rounded-3xl mb-8
+
+}
+
+.vin-hero-title{
+    @apply text-6xl underline font-extrabold mb-1 bg-gradient-to-br from-black to-green-800 bg-clip-text text-transparent
+}
+.vin-hero-title-underline{
+    @apply h-1 bg-gradient-to-br from-black to-green-800 w-[300px] mb-10
+}
+
+.vin-hero-quote{
+    @apply text-base italic mb-6 bg-gradient-to-br from-black to-green-800 bg-clip-text text-transparent
+}
+.vin-hero-brief{
+    @apply   italic text-xl text-left opacity-70
+}
