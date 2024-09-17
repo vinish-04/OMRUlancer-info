@@ -1,7 +1,6 @@
 .omr-hero-main{
     @apply min-h-[100vh] flex flex-col text-white items-center justify-center;
-    background: url("bg.jpg");
-    background-size: cover;
+    
 }
 .omr-hero-title-cont{
     @apply flex flex-col items-center bg-[rgb(255,255,255,0.2)] py-8 px-14 rounded-3xl mb-12

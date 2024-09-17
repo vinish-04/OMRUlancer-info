@@ -1,7 +1,5 @@
 .omr-features-main{
     @apply flex flex-col text-white items-center justify-center;
-    background: url("bg2.jpg");
-    background-size: cover;
 }
 .omrf-cont{
     @apply w-full h-full bg-[rgb(0,0,0,0.8)] py-16 flex flex-col items-center justify-start

@@ -4,7 +4,7 @@ import { FaDiscord, FaLinkedin, FaSquareXTwitter } from 'react-icons/fa6'
 
 const Hero = () => {
   return (
-    <div className='omr-hero-main'>
+    <div className='omr-hero-main' style={{background: 'url("bg.jpg")',backgroundSize:'cover'}}>
         <div className="omr-hero-title-cont">
             <div className="omr-hero-title">
                 <img src="om-real.jpeg" alt="omrulancer" className="omr-hero-title-img" />

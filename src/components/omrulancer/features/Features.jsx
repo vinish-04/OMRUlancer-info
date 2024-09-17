@@ -21,7 +21,7 @@ const benefitsProviders=[
 
 const Features = () => {
   return (
-    <div className='omr-features-main' id='features'>
+    <div className='omr-features-main' id='features' style={{backgroundSize:'cover',backgroundImage:'url("bg2.jpg")'}}>
       <div className="omrf-cont">
         <div className="omrf-title-cont">
           <h1 className="omrf-title">

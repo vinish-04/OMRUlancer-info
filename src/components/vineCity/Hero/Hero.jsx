@@ -3,7 +3,7 @@ import './hero.css'
 
 const Hero = () => {
   return (
-    <div className='vin-hero-main'>
+    <div className='vin-hero-main' style={{background: 'url("vine-bg.jpg")',backgroundSize:'cover'}}>
         <div className="vin-hero-text-cont">
             <h1 className="vin-hero-title">Vine City</h1>
             <div className="vin-hero-title-underline"></div>

@@ -1,6 +1,6 @@
 .vin-hero-main{
     @apply min-h-[100vh] flex flex-col text-white items-center justify-center;
-    background: url("vine-bg.jpg");
+    
     background-size: cover;
 }
 .vin-hero-text-cont{
